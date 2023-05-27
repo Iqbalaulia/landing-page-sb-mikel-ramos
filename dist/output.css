@@ -1535,6 +1535,10 @@ input:checked + .toggle-bg{
   border-radius: 0.75rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-l-lg{
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1695,6 +1699,10 @@ input:checked + .toggle-bg{
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-2{
@@ -2247,6 +2255,10 @@ input:checked + .toggle-bg{
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row{
