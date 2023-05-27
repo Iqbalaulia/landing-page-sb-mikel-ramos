@@ -1100,6 +1100,10 @@ input:checked + .toggle-bg{
   grid-column: span 2 / span 2;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -1492,6 +1496,22 @@ input:checked + .toggle-bg{
   gap: 1.5rem;
 }
 
+.gap-14{
+  gap: 3.5rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1703,6 +1723,14 @@ input:checked + .toggle-bg{
 
 .p-10{
   padding: 2.5rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .px-2{
@@ -2222,6 +2250,14 @@ input:checked + .toggle-bg{
   .sm\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+
+  .sm\:p-0{
+    padding: 0px;
+  }
+
+  .sm\:p-4{
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -2286,6 +2322,10 @@ input:checked + .toggle-bg{
 
   .md\:p-0{
     padding: 0px;
+  }
+
+  .md\:p-10{
+    padding: 2.5rem;
   }
 
   .md\:text-bs-orange-primary{
