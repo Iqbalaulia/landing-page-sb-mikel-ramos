@@ -13,7 +13,7 @@ module.exports = {
 			colors: {
 				bs: {
 					bg: "#F8F9FA",
-					line: "#E4E7EB",
+					line: "#E2E9F3",
 					white: {
 						primary: "#FFFFFF",
 						secondary: "#FAFAFA",
@@ -26,8 +26,8 @@ module.exports = {
 						primary: "#FE5842",
 					},
 					orange: {
-						1: "#F15A23",
-						2: "#FDE6DE",
+						primary: "#F15A23",
+						secondary: "#FDE6DE",
 					},
 					yellow: {
 						primary: "#FFEBCD",
