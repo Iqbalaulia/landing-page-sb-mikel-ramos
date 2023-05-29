@@ -24,6 +24,7 @@ module.exports = {
 					black: {
 						primary: "#110F14",
 						secondary: "#424C5A",
+						third: "#1d1b20",
 					},
 					red: {
 						primary: "#FE5842",
