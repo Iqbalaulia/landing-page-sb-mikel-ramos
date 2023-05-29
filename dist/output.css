@@ -1631,6 +1631,11 @@ input:checked + .toggle-bg{
   background-color: rgb(247 248 251 / var(--tw-bg-opacity));
 }
 
+.bg-bs-background-bg_2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 227 200 / var(--tw-bg-opacity));
+}
+
 .bg-bs-black-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(17 15 20 / var(--tw-bg-opacity));
@@ -1690,11 +1695,6 @@ input:checked + .toggle-bg{
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-bs-background-bg_2{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 227 200 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -1742,6 +1742,11 @@ input:checked + .toggle-bg{
   padding-right: 1.25rem;
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1765,16 +1770,6 @@ input:checked + .toggle-bg{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .pb-10{
