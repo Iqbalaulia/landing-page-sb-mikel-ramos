@@ -14,6 +14,7 @@ module.exports = {
 				bs: {
 					background: {
 						bg_1: "#F7F8FB",
+						bg_2: "#FFE3C8",
 					},
 					bg: "#F8F9FA",
 					line: "#E2E9F3",
@@ -37,6 +38,9 @@ module.exports = {
 						primary: "#FFEBCD",
 					},
 				},
+			},
+			height: {
+				128: "32rem",
 			},
 		},
 	},
